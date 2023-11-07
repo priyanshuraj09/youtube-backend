@@ -1,7 +1,7 @@
 {
-  "name": "youtube",
+  "name": "youtube-backServer",
   "version": "1.0.0",
-  "description": "",
+  "description": "Made with Love by priyanshu raj",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
