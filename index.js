@@ -6,7 +6,7 @@ const cors = require("cors");
 
 mongoose
   .connect(
-    "mongodb+srv://youtubeclone:1234@cluster0.5ofd4si.mongodb.net/youtubeclone_19065081"
+    "mongodb+srv://youtubeclone:1234@cluster0.5ofd4si.mongodb.net/youtubeclone_220240101109"
   )
   .then(() => {
     console.log("DB connected");
@@ -22,5 +22,5 @@ app.use(authRouter);
 app.listen(3000, myCallbackFunction);
 
 function myCallbackFunction() {
-  console.log("Server Started");
+  console.log("Server Started successfully");
 }
